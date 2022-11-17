@@ -1,11 +1,10 @@
-import links
+from data import links
 
 from time import sleep
 from options import driver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 
-from input_data import *
+from data.input_data import *
 
 driver.get(f"{links.google_account}")
 
