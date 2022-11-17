@@ -1,0 +1,7 @@
+b_create_account = '//*[@id="h-js-header__drawer"]/div[2]/ul/li[1]/a'
+b_input_firstName = '//*[@id="firstName"]'
+b_input_lastName = '//*[@id="lastName"]'
+b_username = '//*[@id="username"]'
+b_password = '//*[@id="passwd"]/div[1]/div/div[1]/input'
+b_confirm_password = '//*[@id="confirm-passwd"]/div[1]/div/div[1]/input'
+b_next_1 = '//*[@id="accountDetailsNext"]/div/button/span'
