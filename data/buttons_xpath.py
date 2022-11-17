@@ -1,4 +1,5 @@
-b_create_account = '//*[@id="h-js-header__drawer"]/div[2]/ul/li[1]/a'
+b_create_account = '//*[@id="yDmH0d"]/c-wiz/div/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/button/span'
+b_create_account_for_myself = '//*[@id="yDmH0d"]/c-wiz/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li[1]'
 b_input_firstName = '//*[@id="firstName"]'
 b_input_lastName = '//*[@id="lastName"]'
 b_username = '//*[@id="username"]'

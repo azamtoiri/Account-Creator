@@ -4,9 +4,9 @@ from time import sleep
 from options import driver
 from selenium.webdriver.common.by import By
 
-from data.input_data import *
+from data.buttons_xpath import *
 
-driver.get(f"{links.google_account}")
+driver.get(f"{links.google_account2}")
 
 html = driver.find_element(By.TAG_NAME, "html")
 
@@ -14,9 +14,11 @@ html = driver.find_element(By.TAG_NAME, "html")
 def main():
     try:
         sleep(2)
-        driver.find_element(By.TAG_NAME, "use").click()
+        # driver.find_element(By.TAG_NAME, "use").click()
 
         driver.find_element(By.XPATH, b_create_account).click()
+
+        driver.find_element(By.XPATH, b_create_account_for_myself).click()
 
         driver.find_element(By.XPATH, b_input_firstName).send_keys("lsdkfj;lasdfj;lasd")
 
