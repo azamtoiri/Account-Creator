@@ -31,7 +31,7 @@ sortedcontainers = "2.4.0"
 tqdm = "4.64.1"
 trio = "0.22.0"
 trio-websocket = "0.9.2"
-urllib3 = "1.26.12"
+urllib3 = "1.26.18"
 webdriver-manager = "3.8.4"
 wsproto = "1.2.0"
 
