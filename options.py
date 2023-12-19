@@ -21,7 +21,7 @@ option.add_argument(
 option.add_argument("--disable-blink-features=AutomationControlled")
 
 # Drivers
-driver = webdriver.Chrome("web-driver/chromedriver.exe", options=option)
+driver = webdriver.Chrome("web-driver/chromedriver_v_120.exe", options=option)
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
