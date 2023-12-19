@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from data.buttons_xpath import *
 
 driver.get(f"{links.google_account2}")
+driver.get_cookie()
 
 html = driver.find_element(By.TAG_NAME, "html")
 
