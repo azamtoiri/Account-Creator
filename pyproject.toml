@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 selenium = "4.5.0"
-requests = "2.28.1"
+requests = "2.31.0"
 fake-useragent = "0.1.14"
 async-generator = "1.10"
 attrs = "22.1.0"
